@@ -31,7 +31,7 @@
   "opens-new-tab": "Otvori u novoj kartici",
   "failed-update": "Ažuriranje nije uspjelo",
   "reported-errors": "Prijavljene su pogreške",
-  "credit-card-expiry-placeholder": "MM/GG",
+  "credit-card-expiry-placeholder": "MM/YY",
   "apikeys": {
     "no-addresses-whitelisted": "Niste dodali niti jednu dopuštenu adresu.",
     "address-input-placeholder": "Upišite BTC, NEO ili ETH adresu u listu dopuštenih adresa",
@@ -46,98 +46,98 @@
       "apitrade": "API trgovanja",
       "twofa": "2FA"
     },
-    "delete-all-tokens": {
-      "body": "",
-      "confirm-button-label": "Revoke all keys forever",
-      "cancel-button-label": "Go back"
+   "delete-all-tokens": {
+      "body": "Jeste li sigurni da želite opozvati sve svoje ključeve?",
+      "confirm-button-label": "Opozovi sve ključeve zauvijek",
+      "cancel-button-label": "Povratak"
     },
     "delete-token": {
-      "body": "Are you sure you want to revoke ‘<0></0>’?",
-      "confirm-button-label": Jeste li sigurni da želite opozvati sve svoje ključeve?"Revoke forever",
-      "cancel-button-label": "Go back"
+      "body": "Jeste li sigurni da želite opozvati ‘<0></0>’?",
+      "confirm-button-label": "Opozovi zauvijek",
+      "cancel-button-label": "Povratak"
     },
     "edit-whitelisted": {
-      "title": "Address whitelist for {{name}}",
-      "add": "Add another",
-      "save-and-close": "Saves changes and close",
-      "continue": "Continue"
+      "title": "Dopuštene adrese za {{name}}",
+      "add": "Dodajte još jednu adresu",
+      "save-and-close": "Spremi promjene i izađi",
+      "continue": "Nastavi"
     },
     "overview": {
-      "no-addresses-whitelisted": "No addresses whitelisted",
-      "title": "Manage API keys",
-      "revoke-button-label": "Revoke",
-      "table-header": "Your API keys",
-      "no-tokens-exp": "<0>Generate your first key</0> or read our <1>API documentation</1>.",
-      "name": "Name",
-      "never-used": "Never used",
-      "last-used": "Last used {{when}}",
-      "subtitle": "Generate and manage API keys. Learn more about <0>our APIs</0>.",
-      "key-info": "Key information",
-      "api-key": "API key",
-      "blockchains": "Blockchains",
-      "whitelisted": "Whitelist",
-      "view-whitelist": "View whitelist",
+      "no-addresses-whitelisted": "Niti jedna adresa nije na popisu dopuštenih adresa",
+      "title": "Upravljaj API ključevima",
+      "revoke-button-label": "Opozivi",
+      "table-header": "Vaši API ključevi",
+      "no-tokens-exp": "<0>Stvorite svoj prvi ključy</0> or read our <1>API dokumentacija</1>.",
+      "name": "Ime",
+      "never-used": "Nikad korišteno",
+      "last-used": "Prethodno korišteno {{when}}",
+      "subtitle": "Stvori i upravljaj API ključevima. Saznaj više o <0>our APIs</0>.",
+      "key-info": "Informacija o ključu",
+      "api-key": "API ključevi",
+      "blockchains": "Plockchainovi",
+      "whitelisted": "Popis dopuštenih",
+      "view-whitelist": "Pregled popisa dopuštenih",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
-      "blockchains-hint": "This API key can function with these blockchains.",
-      "usable-for": "Usable for",
-      "revoke": "Revoke",
-      "created": "Created",
-      "policy-trading": "Trading",
-      "loading": "Loading tokens…",
-      "no-tokens": "You haven’t generated any API keys yet.",
-      "policy-withdrawals": "Withdrawals and deposits",
-      "revoke-all-keys-button-label": "Revoke all keys",
-      "generate-new-key-button-label": "Generate new key",
-      "plus-more": "+{{count}} more"
+      "blockchains-hint": "Ovaj API ključ koristi se sa sljedećim blockchainovima.",
+      "usable-for": "Koristi se za",
+      "revoke": "Opozovi",
+      "created": "Stvoreno",
+      "policy-trading": "Trgovanje",
+      "loading": "Učitavanje tokena…",
+      "no-tokens": "Niste stvorili niti jedan API ključ dosad.",
+      "policy-withdrawals": "Isplate i depoziti",
+      "revoke-all-keys-button-label": "Opozovi sve ključeve",
+      "generate-new-key-button-label": "Stvori novi ključ",
+      "plus-more": "+{{count}} više"
     },
     "create-modal": {
-      "credentials-step": "User credentials",
-      "whitelist-step": "Whitelist addresses",
-      "name-step": "Name your key",
-      "last-step": "Back up secret",
-      "title": "Generate new API key"
+      "credentials-step": "Korisničke vjerodajnice",
+      "whitelist-step": "Popis dopuštenih adresa",
+      "name-step": "Navedite ime ključa",
+      "last-step": "Sigurnosna tajna",
+      "title": "Stvori novi API ključ"
     },
     "step1": {
-      "name": "Name",
-      "continue-button-label": "Create key"
+      "name": "Ime",
+      "continue-button-label": "Stvori ključ"
     },
     "step2": {
-      "password": "Password",
-      "two-fa-code": "Two-factor authentication code",
-      "create-api-button-label": "Continue",
-      "incorrect-password": "The password you entered was incorrect.",
-      "incorrect-2fa": "The code you entered was incorrect."
+      "password": "Lozinka",
+      "two-fa-code": "Dvofaktorni kod za autentifikaciju",
+      "create-api-button-label": "Nastavi",
+      "incorrect-password": "Lozinka koju ste unijeli nije točna.",
+      "incorrect-2fa": "Kod koji ste unijeli nije točan."
     },
     "step3": {
-      "generating-keys-message": "Generating your key…"
+      "generating-keys-message": "Stvaranje vašeg ključa..."
     },
     "step4": {
-      "your-secret": "Your secret",
-      "your-secret-warning": "This is the only time we’ll show you this.",
-      "api-key": "Your API key",
-      "api-key-warning": "This is the only time we’ll show you this.",
-      "download-as-json-button-label": "Download API key and secret as JSON",
-      "i-saved-my-secret-button-label": "I have saved my secret"
+      "your-secret": "Vaša sigurnosna tajna",
+      "your-secret-warning": "Ovo je jedini put da ćete ovo vidjeti.",
+      "api-key": "Vaš API ključ",
+      "api-key-warning": "Ovo je jedini put da ćete ovo vidjeti.",
+      "download-as-json-button-label": "Preuzmi API ključ i sigurnosnu tajnu kao JSON",
+      "i-saved-my-secret-button-label": "Spremio sam svoju sigurnosnu tajnu"
     }
   },
   "terse-periods": {
     "1h": "1h",
     "1d": "24h",
-    "1w": "1w",
-    "1m": "1M"
+    "1w": "1tj",
+    "1m": "1Mj"
   },
   "transfer": {
-    "trading": "Trading",
-    "personal": "Personal",
-    "in-trades": "In trades",
-    "transfer-funds": "Send/Receive",
-    "pending-transfer": "You have a pending transfer of {{amount}} {{currencySymbol}}.",
-    "pending-transfer-link": "View your transfers here."
+    "trading": "Trgovanje ",
+    "personal": "Osobno",
+    "in-trades": "Trenutno u trgovanju",
+    "transfer-funds": "Pošalji/Primi",
+    "pending-transfer": "Imate prijenos na čekanju od {{amount}} {{currencySymbol}}.",
+    "pending-transfer-link": "Pregled transfera."
   },
-  "estimated-fee": "Estimated fee: {{fee}} {{currencySymbol}}",
+  "estimated-fee": "Procijenjena naknada: {{fee}} {{currencySymbol}}",
   "quick-fill": {
-    "max": "Max",
-    "use-last": "Use last"
+    "max": "Maksimalno",
+    "use-last": "Koristi prethodno"
   },
   "insufficient-funds": "Insufficient funds",
   "amount-each": "{{amount}} each",
