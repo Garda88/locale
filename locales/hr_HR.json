@@ -65,16 +65,16 @@
     "overview": {
       "no-addresses-whitelisted": "Niti jedna adresa nije na popisu dopuštenih adresa",
       "title": "Upravljaj API ključevima",
-      "revoke-button-label": "Opozivi",
+      "revoke-button-label": "Opozovi",
       "table-header": "Vaši API ključevi",
-      "no-tokens-exp": "<0>Stvorite svoj prvi ključy</0> or read our <1>API dokumentacija</1>.",
+      "no-tokens-exp": "<0>Stvorite svoj prvi ključ </0> or read our <1>API dokumentacija</1>.",
       "name": "Ime",
       "never-used": "Nikad korišteno",
       "last-used": "Prethodno korišteno {{when}}",
       "subtitle": "Stvori i upravljaj API ključevima. Saznaj više o <0>our APIs</0>.",
-      "key-info": "Informacija o ključu",
+      "key-info": "Informacije o ključu",
       "api-key": "API ključevi",
-      "blockchains": "Plockchainovi",
+      "blockchains": "Blockchainovi",
       "whitelisted": "Popis dopuštenih",
       "view-whitelist": "Pregled popisa dopuštenih",
       "blockchains-static": "Bitcoin, Ethereum, NEO",
@@ -139,54 +139,54 @@
     "max": "Maksimalno",
     "use-last": "Koristi prethodno"
   },
-  "insufficient-funds": "Insufficient funds",
-  "amount-each": "{{amount}} each",
+  "insufficient-funds": "Nedostatna sredstva",
+  "amount-each": "{{amount}} pojedini",
   "daily-limit": {
-    "title": "Total daily limit",
-    "link": "Increase my limits",
-    "amount-of-max-amount": "{{amount}} out of {{maxAmount}}"
+    "title": "Ukupni dnevni limit",
+    "link": "Povećaj moj limit",
+    "amount-of-max-amount": "{{amount}} od {{maxAmount}}"
   },
   "fee-information-modal": {
-    "title": "Fee structure",
-    "desc": "Nash calculates a user’s 30-day moving average volume using the volume of trades associated with their account as a percentage of total exchange volume.",
-    "30-day-volume": "30-day volume",
-    "taker-fee": "Taker fee",
-    "maker-fee": "Maker fee",
-    "learn-more": "Learn more about maker and taker orders."
+    "title": "Struktura naknada",
+    "desc": "Nash izračunava korisnikov 30 dnevni prosjek obujma trgovanja koristeći obujam trgovanja povezan s korisničkim računom u postotku ukupnog obujma trgovanja čitave mjenjačnice.",
+    "30-day-volume": "30 dnevni obujam trgovanja",
+    "taker-fee": "Naknada tržišnog primatelja,
+    "maker-fee": "Naknada tržišnog davatelja",
+    "learn-more": "Saznajte više o narudžbama tržišnih davatelja i primatelja."
   },
   "time-in-force-modal": {
-    "title": "Time in force",
-    "subtitle": "Specify the time period for which your order will remain on the book.",
+    "title": "Vrijeme na snazi",
+    "subtitle": "Navedite vremensko razdoblje u kojem će vaša narudžba ostati u knjizi narudžbi.",
     "sections": {
       "gtc": {
-        "header": "Good ’til canceled",
-        "desc": "Your order will remain on the book indefinitely – either until it is filled or until you cancel it."
+        "header": "Koristi dok se ne poništi",
+        "desc": "Vaša narudžba ostati će u knjizi narudžbi neograničeno - dok se ne ispuni ili dok ju ne poništite."
       },
       "gtt": {
-        "header": "Good ’til time",
-        "header-with-time": "Good ’til {{cancelAt}}",
-        "desc": "Your order will remain on the book until the time you specify. If it has not been filled by that time, it will be canceled."
+        "header": "Koristi unutar zadanog vremena",
+        "header-with-time": "Koristi unutar zadanog vremena {{cancelAt}}",
+        "desc": "Vaša narudžba ostati će u knjizi narudžbi do vremena kojeg odredite. Ukoliko se u zadanom vremenu narudžba ne ispuni, narudžba će se poništiti."
       },
       "fok": {
-        "header": "Fill or kill",
-        "desc": "If your entire order can be filled immediately, then it will be. If it cannot be filled entirely, then the whole order will be canceled."
+        "header": "Ispuni ili poništi",
+        "desc": "Vaša narudžba biti će ispunjena u cijelosti i odmah ukoliko je to moguće. Ukoliko čitavu narudžbu nije moguće ispuniti, čitava narudžba biti će poništena."
       },
       "ioc": {
-        "header": "Immediate or cancel",
-        "desc": "However much of your order can be filled immediately will be filled. Whatever portion remains unfilled will be canceled."
+        "header": "Ispuni odmah ili poništi",
+        "desc": "Dio narudžbe koji je moguće ispuniti odmah biti će ispunjen. Ukoliko dio narudžbe ostane neispunjen, taj dio narudžbe će se poništiti."
       }
     }
   },
   "main-navigation": {
-    "referrals": "Referrals",
-    "funds": "Funds",
-    "exchange": "Exchange",
-    "basic-exchange": "Basic view",
-    "basic-exchange-short": "Basic",
-    "advanced-exchange": "Pro view",
-    "advanced-exchange-short": "Pro",
-    "markets": "Markets",
-    "settings": "My account",
+    "referrals": "Preporuke",
+    "funds": "Sredstva",
+    "exchange": "Mjenjačnica",
+    "basic-exchange": "Osnovni prikaz",
+    "basic-exchange-short": "Osnovno",
+    "advanced-exchange": "Profesionalni prikaz",
+    "advanced-exchange-short": "Profesionalno",
+    "markets": "Tržište",
+    "settings": "Moj račun",
     "fiat-ramps": "Fiat ramps"
   },
   "top-nav": {
