@@ -298,15 +298,15 @@
     "location-banned": "Nažalost, Nash trenutno nije dostupan u Vašoj jurisdikciji.",
     "invalid-clock-title": "Sat Vašeg računala nije točan.",
     "permissions-issue-title": "Problemi sa odobrenjima",
-    "invalid-clock": "Kako biste trgovali na Nashu Vaš sat mora biti točan. <0>Sinkronizirajte sat</0> then <1>pokušaj ponovno</1>.",
+    "invalid-clock": "Kako biste trgovali na Nashu Vaš sat mora biti točan. <0>Sinkronizirajte sat</0> then <1>pokušajte ponovno</1>.",
     "network-issue-title": "Mrežni problem",
-    "network-issue": "Postoji privremeni problem sa mrežom. Molimo <0>try again</0>.",
+    "network-issue": "Postoji privremeni problem sa mrežom. Molimo <0>pokušajte ponovno</0>.",
     "generic-error-title": "Pogreška",
     "generic-error": "Nešto je pošlo po krivu. Molimo pokuštajte ponovno.",
     "generic-error-signout": "Dogodila se neočekivana greška. Molimo da se odjavite i pokušate ponovno.",
     "within-waiting-period": "Morate pričekati 5 minuta prije stvaranja novog zaloga. Vaš novi zalog ubrzo će se pojaviti.",
 "password": {
-      "incorrect": "The password you entered was incorrect."
+      "incorrect": "Lozinka koju ste unijeli nije točna."
     },
     "2fa": {
       "incorrect": "Dvofaktorni kod za autentifikaciju koji ste unijeli nije ispravan. Imate maksimalno 5 pokušaja.",
@@ -330,8 +330,8 @@
     }
   },
   "no-results": "Nema rezultata.",
-  "yes": "yes",
-  "no": "no",
+  "yes": "da",
+  "no": "ne",
   "account-types": {
     "personal": "Osobni račun",
     "trading": "Račun za trgovanje",
@@ -340,8 +340,8 @@
   "query-errors": {
     "failed": "Učitavanje nije uspjelo.",
     "failed-button": "Učitavanje nije uspjelo",
-    "failed-please-try": "<0>Failed to load. Please\u00A0</0><1>retry</1>.",
-    "why-this-may-happening": "Saznaj zašto se ovo dogodilo <0>here.</0>"
+    "failed-please-try": "<0>Učitavanje nije uspjelo. Molimo\u00A0</0><1>pokušajte ponovno</1>.",
+    "why-this-may-happening": "Saznajte zašto se ovo dogodilo <0>here.</0>"
   },
   "datetime": {
     "time-in-hours": "<0>{{count}}</0> hour",
@@ -386,35 +386,35 @@
         },
         "high-risk-country": {
           "title": "Vaš trenutni nivo verifikacije je Razina 0. Zbog toga će pristup nekim dijelovima Nash platforme biti ograničen.",
-          "message": "Kako biste koristili sve naše usluge, molimo <0>izvršite nadogradnju na Razinu 1</0>."
+          "message": "Kako biste koristili sve ponuđene usluge, molimo <0>izvršite nadogradnju na Razinu 1</0>."
         },
         "duplicate-ip": {
-          "title": "An account has already been created using this IP address.",
-          "message": "To access all Nash services on this account, please <0>upgrade to Tier 1</0>."
+          "title": "Račun je već stvoren na ovoj IP adresi.",
+          "message": "Kako biste pristupili svim uslugama Nasha na ovom računu, molimo <0>izvršite nadogradnju na Razinu 1</0>."
         }
       },
       "restricted": {
         "us": {
-          "title": "Not all Nash services are currently supported in {{usState}}. Your access to some parts of the Nash platform will be restricted.",
-          "title-no-state": "Not all Nash services are currently supported in your state. Your access to some parts of the Nash platform will be restricted.",
-          "message": "We will notify you by email when {{usState}} is fully supported. Please <0>contact our support team</0> with any questions.",
-          "message-no-state": "We will notify you by email when your state is fully supported. Please <0>contact our support team</0> with any questions."
+          "title": "Trenutno nisu podržane sve Nash usluge u {{usState}}. Vaš će pristup nekim dijelovima Nash platforme biti ograničen.",
+          "title-no-state": "Trenutno nisu podržane sve Nash usluge u Vašoj državi. Vaš će pristup nekim dijelovima Nash platforme biti ograničen.",
+          "message": "Obavijestiti ćemo Vas putem e-poruke kada {{usState}} u potpunosti bude podržan. Molimo <0>kontaktirajte naš tim za podršku</0> za sva pitanja.",
+          "message-no-state": "Obavijestiti ćemo Vas putem e-poruke kada Vaša država u potpunosti bude podržana. Molimo <0>kontaktirajte naš tim za podršku</0> za sva pitanja."
         },
         "generic": {
-          "title": "Not all Nash services are currently supported in your present location. Your access to some parts of the Nash platform will be restricted.",
-          "message": "Please <0>contact our support team</0> with any questions."
+          "title": "Na Vašoj trenutnoj lokaciji u ovom trenutku nisu podržane sve usluge Nasha. Pristup određenim dijelovima Nash platforme biti će onemogućen.",
+          "message": "Molimo <0>kontaktirajte naš tim za podršku</0> za sva pitanja."
         }
       },
       "tier-too-low": {
-        "title": "Your current verification level is Tier {{userTier}}. As a result, your access to some parts of the Nash platform will be restricted.",
-        "message": "To use our full portfolio of services, please <0>upgrade to Tier {{minTier}}</0>."
+        "title": "Vaš trenutni verifikacijski nivo je Razina {{userTier}}. Zbog toga će Vam biti ograničen pristup nekim dijelovima Nash platforme.",
+        "message": "Kako biste pristupili svim uslugama, molimo <0>nadogradite na Razinu {{minTier}}</0>."
       }
     },
     "info": {
       "tier-1+": {
         "location-mismatch": {
-          "title": "We noticed you’re signing in from {{detectedCountry}}.",
-          "message": "If you no longer live in {{accountCountry}}, please <0>contact our support team</0> to update your address."
+          "title": "Primjetili smo da se prijavljujete iz {{detectedCountry}}.",
+          "message": "Ako više ne živite u {{accountCountry}}, molimo <0>kontaktirajte naš tim za podršku</0> kako biste ažurirali svoju adresu."
         }
       },
       "browser": {
