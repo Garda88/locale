@@ -419,119 +419,119 @@
       },
       "browser": {
         "use-desktop-for-advanced-exchange": {
-          "title": "Browse on desktop for a better experience.",
-          "message": "The ‘Pro’ view is designed for desktop usage. If you are on mobile, try the <0>‘Basic’ view</0>."
+          "title": "Za ugodnije iskustvo pregleda koristite desktop prikaz.",
+          "message": "Profesionalni prikaz dizajniran je za upotrebu kroz desktop pregled. Ukoliko ste na mobilnom uređaju, koristite <0>‘Jednostavni prikaz</0>."
         }
       }
     },
-    "dismiss-message": "Don’t tell me this again."
+    "dismiss-message": "Nemoj mi više reći."
   },
   "terms": {
-    "user-agreement": "User Agreement",
-    "privacy-notice": "Privacy Notice"
+    "user-agreement": "Korisnički ugovor",
+    "privacy-notice": "Obavijest o privatnosti"
   },
   "account-create": {
     "steps": [
-      "Your details",
-      "Country",
-      "Account details"
+      "Vaši detalji",
+      "Država",
+      "Detalji računa"
     ],
     "signin": {
-      "desc": "Already have a Nash account?",
-      "sign-in-now": "Sign in now"
+      "desc": "Već imate Nash račun?",
+      "sign-in-now": "Prijavite se"
     },
     "form": {
       "fields": {
-        "optional": "(optional)"
+        "optional": "(dodatno)"
       },
-      "continue": "Continue",
+      "continue": "Nastavi",
       "errors": {
-        "generic-error": "Error signing up for an account. Please try again.",
-        "invalid-referral-code-can-continue": "Invalid referral code.",
-        "invalid-referral-code": "Invalid referral code. Please check your code and try again.",
-        "invalid-email-domain": "Your email provider is not allowed. Please use a different address.",
-        "duplicate-email": "An account has already been created for this email address.",
-        "password-too-short": "Your password should be at least eight characters long.",
-        "invalid-recaptcha": "Recaptcha verification failed. Please try again.",
-        "missing-us-state": "If you live in the United States, you must enter your state."
+        "generic-error": "Pogreška prilikom prijave. Molimo pokušajte ponovno.",
+        "invalid-referral-code-can-continue": "Nevažeći kod preporuke.",
+        "invalid-referral-code": "Nevažeći kod preporuke. Molimo provjerite kod te pokušajte ponovno.",
+        "invalid-email-domain": "Odabrani pružatelj usluge e-pošte nije dozvoljen. Molimo da koristite drugu adresu.",
+        "duplicate-email": "Za ovu adresu e-pošte račun je već stvoren.",
+        "password-too-short": "Vaša lozinka trebala bi imati barem 8 znakova.",
+        "invalid-recaptcha": "Recaptcha provjera nije uspjela. Molimo pokušajte ponovno.",
+        "missing-us-state": "Ako živite u Sjedinjenim Američkim Državama, potrebno je navesti svoju državu."
       }
     },
     "your-details": {
-      "header": "Create an account",
-      "subheader": "Your details",
+      "header": "Stvorite profil",
+      "subheader": "Vaši detalji",
       "disclaimer": {
-        "title": "Notice for US customers",
-        "desc": "You are creating a preliminary Nash account to participate in the referral program, but your state must be eligible to access some Nash services. If eligible, you will later be asked to sign a user agreement."
+        "title": "Napomena za korisnike iz SAD-a",
+        "desc": "Stvarate preliminarni Nash račun za sudjelovanje u programu preporuka ali Vaša država mora ispunjavati uvjete za pristup nekim Nash uslugama. Ukoliko ispunjavate uvjete od Vas će se kasnije tražiti da potpišete korisnički ugovor."
       },
       "fields": {
         "full-name": {
-          "label": "Full name"
+          "label": "Puno ime"
         },
         "referral-code": {
-          "label": "Referral code (optional)",
-          "sub-label": "What is this?"
+          "label": "Kod preporuke (izborno))",
+          "sub-label": "Što je ovo?"
         }
       },
       "modals": {
         "referrals": {
-          "title": "Nash referral program",
-          "desc": "This will be used to track referrals for future Nash promotions."
+          "title": "Nash program preporuke",
+          "desc": "Ovo će se koristiti za praćenje preporuka za buduće Nash promocije."
         }
       },
       "user-messages": {
         "untrusted-ip": {
-          "title": "We noticed you’re using a VPN.",
-          "message": "Please disable any VPN or proxy services to continue. Once you have created an account, you can verify your identity to use a VPN in future."
+          "title": "Primjećujemo da koristite VPN.",
+          "message": "Molimo da onemogućite VPN i proxy usluge kako biste nastavili. Nakon što stvorite račun, možete potvrditi svoj identitet za korištenje VPN-a ubuduće."
         }
       }
     },
     "country-details": {
-      "header": "Create an account",
-      "subheader": "Where do you live?",
+      "header": "Stvorite račun",
+      "subheader": "Gdje živite?",
       "fields": {
         "country": {
-          "label": "Country of residence"
+          "label": "Država prebivališta"
         },
         "state": {
-          "label": "State"
+          "label": "Država"
         },
         "confirm-country": {
-          "label": "I confirm that this is my country of residence."
+          "label": "Potvrđujem da je ovo država mog prebivališta."
         },
         "confirm-country-and-state": {
-          "label": "I confirm that these are my country and state of residence."
+          "label": "Potvrđujem da je ovo država mog prebivališta."
         }
       }
     },
     "account-details": {
-      "header": "Create an account",
-      "subheader": "Account details",
-      "continue": "Create account",
+      "header": "Stvorite račun",
+      "subheader": "Detalji računa",
+      "continue": "Stvorite račun",
       "fields": {
         "email": {
-          "label": "Enter an email address",
-          "placeholder": "Email address"
+          "label": "Unesite adresu e-pošte",
+          "placeholder": "Email adresa"
         },
         "password": {
-          "label": "Create a password",
-          "placeholder": "Password",
+          "label": "Stvorite lozinku",
+          "placeholder": "Lozinka",
           "errors": {
-            "password-too-weak": "The password you chose is too weak."
+            "password-too-weak": "Lozinka koju ste odabrali je preslaba."
           }
         },
         "password-confirm": {
-          "label": "Confirm your password",
-          "placeholder": "Confirm password",
+          "label": "Potvrdite svoju lozinku",
+          "placeholder": "Potvrdi lozinku",
           "errors": {
-            "passwords-do-not-match": "Passwords do not match."
+            "passwords-do-not-match": "Lozinke se ne podudaraju."
           }
         }
       },
       "modals": {
         "password-tips": {
-          "title": "Tips for a strong password",
-          "desc": "A strong password is essential to keep your funds secure. Follow these tips to stay safe:",
-          "tip-index": "Tip {{index}}",
+          "title": "Savjeti za snažnu lozinku",
+          "desc": "Snažna lozinka ključna je za osiguranje sredstava. Slijedite ove savjete kako biste ostali sigurni:",
+          "tip-index": "Savjet {{index}}",
           "tip-1": "Do not reuse a password from other websites, even if you change individual words or characters. If you are phished or hacked elsewhere, your Nash account will instantly be compromised.",
           "tip-2": "Do not include personal information in your password. Names, birthdays and addresses are easy to find out and should be avoided.",
           "tip-3": "Make your password at least twelve characters long and use a mixture of upper and lowercase letters, numbers and special characters.",
