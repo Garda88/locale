@@ -121,10 +121,10 @@
     }
   },
   "terse-periods": {
-    "1h": "1h",
-    "1d": "24h",
-    "1w": "1tj",
-    "1m": "1Mj"
+    "1h": "1 sat",
+    "1d": "24 sata",
+    "1w": "1 tj",
+    "1m": "1 mj"
   },
   "transfer": {
     "trading": "Trgovanje ",
@@ -195,7 +195,7 @@
     },
     "user-menus": {
       "portfolio": {
-        "label": "Portfelj"
+        "label": "Portfolio"
       },
       "notifications": {
         "label": "Obavijesti",
@@ -241,7 +241,7 @@
       "funds": {
         "title": "Sredstva",
         "pages": {
-          "portfolio": "Portfelj",
+          "portfolio": "Portfolio",
           "transfers": "Transakcije",
           "assets": "Stavke",
           "contacts": "Kontakti"
@@ -439,11 +439,12 @@
     "signin": {
       "desc": "Već imate Nash račun?",
       "sign-in-now": "Prijavite se"
-    },
-    "form": {
-      "fields": {
-        "optional": "(dodatno)"
       },
+    "form": {
+      "your-state-is": "Vaša država je",
+      "fields": {
+        "optional": "(izborno)"
+       },
       "continue": "Nastavi",
       "errors": {
         "generic-error": "Pogreška prilikom prijave. Molimo pokušajte ponovno.",
@@ -457,7 +458,7 @@
       }
     },
     "your-details": {
-      "header": "Stvorite profil",
+      "header": "Stvorite račun",
       "subheader": "Vaši detalji",
       "disclaimer": {
         "title": "Napomena za korisnike iz SAD-a",
